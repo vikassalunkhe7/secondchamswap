@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+* {
+    font-family: 'Mitr', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: rgb(72 63 59) 0px 0px 5px inset;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #FFF;
+    border-radius: 8px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}

@@ -1,0 +1,45 @@
+<div class="logo">
+  <a href="https://www.creative-tim.com?ref=bda-sidebar-logo" class="simple-text logo-mini">
+    <!-- <div class="logo-img">
+      <img src="./assets/img/angular2-logo-white.png" />
+    </div> -->
+  </a>
+  <a  class="simple-text logo-normal">
+   Dashboard
+  </a>
+</div>
+<div class="sidebar-wrapper">
+  <ul class="nav">
+    <li
+      routerLinkActive="active"
+      *ngFor="let menuItem of menuItems"
+      class="{{ menuItem.class }} nav-item"
+    >
+      <a [routerLink]="[menuItem.path]">
+        <i class="tim-icons  {{ menuItem.icon }}"></i>
+        <p >{{ menuItem.title }}</p>
+      </a>
+    </li>
+  </ul>
+  <hr style="background: #fff;">
+  <div class="row" >
+    <span class="joinspn">Join Us</span>
+  </div>
+  <div class="row" style="padding: 0px 17px;">
+    <div class="col">
+        <img style="filter: invert(1);" src="../../../assets/img/ico/sidebarico/telegram.svg">
+    </div>
+    <div class="col">
+      <img style="filter: invert(1);" src="../../../assets/img/ico/sidebarico/twitter.svg">
+
+    </div>
+    <div class="col"> 
+      <img style="filter: invert(1);    width: 18px;"src="../../../assets/img/ico/sidebarico/facebook-app-symbol.png">
+
+    </div>
+    <div class="col">
+      <img style="filter: invert(1);    width: 18px;" src="../../../assets/img/ico/sidebarico/medium.png">
+
+    </div>  
+  </div>
+</div>

@@ -1,0 +1,458 @@
+
+<div class=" content">
+  <div class="row" >
+    <div class=" col-12">
+      <div class=" card card-chart">
+        <div>
+          <div class="row">
+
+            <div class=" col-sm-6">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="row d-flex justify-content-center" style="position: relative;" >
+   
+    <div class=" col-lg-6">
+      <div class="card card-chart" style="       margin: 0 auto; /* Added */
+      float: none; /* Added */
+      margin-bottom: 10px; /* Added */">
+        <div class=" card-header">
+          <div class="fix-baner-img">
+            <img src="../../../assets/img/banner-svg.svg">
+            </div>
+            <div class="fix-monkey-img">
+              <img src="../../../assets/img/pngegg.png">
+              </div>
+          <h3 class=" card-title">
+         
+            <h5 class=" card-category" style="    font-size: 24px;
+            font-weight: 400;
+            line-height: 1.1;
+            color: #fff;">Exchange</h5>
+          </h3>
+        </div>
+        <div class="card-body" style="  
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 50px;">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+      
+      <div>
+        <!-- Tab items -->
+          <div class="tabs">
+              <ul class="tab-links">
+                  <li class="active"><a href="#tab1"><i class="tim-icons icon-vector"></i> &nbsp; Swap</a></li>
+                  <li><a href="#tab2"> <i class="tim-icons icon-atom"></i> &nbsp; Liquidity</a></li>
+                  <li><a href="#tab3"><i class="tim-icons icon-link-72"></i>&nbsp; Bridge</a></li>
+              </ul>
+           
+              <div class="tab-content">
+                  <div id="tab1" class="tab active">
+                      <section class="zap-sec">
+                        <div class="container">
+                          <div class="row d-flex justify-content-center ">
+                            <div class="card w-auto zap-card" style="background: #1e1e2c;">
+                              <div class="card-body">
+                                <div class="zap-control-header">
+                                </div>
+                                <div class="inner-div" data-toggle="modal" data-target="#exampleModalLong">
+                                  <div class="logo-name">
+                                    <img src="../../../assets/img/ico/compound.png" style="width: 2rem;"/>
+                                    <span class="l-name">BNB</span>
+                                  </div>
+                                  <i class="ti-angle-down"></i>
+                      
+                                </div>
+                                <div class="inner-div mt-3">
+                               
+                                    <input value="0" placeholder="0" class="token-input">
+                                    <div class="token-input-max no-select clickable hide-symbol">MAX</div>
+                         
+                                 
+                      
+                                </div>
+                                <div class="balance d-flex justify-content-between">
+                                  <div class="empty-div"></div>
+                                  <div class="value-div">
+                                    <span class="label">BALANCE :</span>
+                                    <span class="value mt-3">0.000 BUNNY</span>
+                                  </div>
+                                
+                                </div>
+                                <div class="icon-div d-flex justify-content-center mt-3">
+                                  <i class="ti-arrow-down"></i>
+                                </div>
+                                <div class="inner-div mt-3" data-toggle="modal" data-target="#exampleModalLong">
+                                  <div class="logo-name">
+                                    <img src="../../../assets/img/ico/1inchexchange.png" style="width: 2rem;"/>
+                                    <span class="l-name">CHAMP SWAP</span>
+                                  </div>
+                                  <i class="ti-angle-down"></i>
+                      
+                                </div>
+                                <div class="balance d-flex justify-content-between">
+                                  <div class="empty-div"></div>
+                                  <div class="value-div">
+                                    <span class="label">BALANCE :</span>
+                                    <span class="value mt-3">0.000 CHAMP</span>
+                                  </div>
+                                
+                                </div>
+                                <div class="card-divider mt-5">
+                      
+                                </div>
+                              
+                                      <button
+                                      class="btn btn-danger btn-block mr-4 mt-4"
+                                      (click)="showNotification('top', 'right')"
+                                    >
+                                      Unlock Wallet
+                                    </button>
+                                  
+                                <!-- <h5 class="card-title">Card title</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Button</a> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                  </div>
+           
+                  <div id="tab2" class="tab">
+                    <section class="zap-sec">
+                      <div class="container">
+                        <div class="row d-flex justify-content-center ">
+                          <div class="card col-lg-8 zap-card" style="background:#1e1e2d">
+                            <div class="card-body">
+                              <div class="d-flex justify-content-between">
+                                <div class="main-p">
+                                  <h3 style="color: #c23564;margin: 5px;">Liquidity</h3>
+                                  <span style="margin: 5px;color: white;">Add liquidity to receive LP tokens</span>
+                                  <button
+                                  class="btn btn-danger btn-block mr-4 mt-4"
+                                  (click)="showNotification('top', 'right')"
+                                >
+                                 Add Liquidity
+                                </button>
+                                </div>
+                                <div class="main-img mt-2 ml-3">
+                                  <img class="pr-4" style="filter: invert(1);" src="../../../assets/img/ico/settinng.svg">
+                                  <img class="history" style="filter: invert(1);" src="../../../assets/img/ico/history.svg">
+                                </div>
+                              </div>
+                              <hr style="background:#c23564;">
+                              <div class="d-flex justify-content-between">
+                                <div class="main-p">
+                                  <h3 style="color: #c23564;margin: 5px;">Your Liquidity                          </h3>
+                                </div>
+                                <div class="main-img mt-2 ml-3">
+                                  <img style="filter: invert(1);" src="../../../assets/img/ico/copy.svg">
+                                </div>
+                              </div>
+                  
+                              <div class="main-pr">
+                                <p class="p-5" style="text-align: center;color: white;">Connect to a wallet to <br> view your liquidity.</p>
+                              <span style="color:#c23564" >Or, if you staked your LP tokens in a farm, unstake them to see them here.</span>
+                              </div>
+                              <div class="zap-control-header">
+                              </div>
+                  
+                              <!-- <div class="inner-div" data-toggle="modal" data-target="#exampleModalLong">
+                                <div class="row">
+                                  <div class="col-lg-9">
+                                      2
+                                  </div>
+                                  <div class="col-lg-3">
+                                      3
+                                  </div>
+                                </div>
+                    
+                              </div>
+                              <div class="inner-div mt-3">
+                             
+                                  <input value="0" placeholder="0" class="token-input">
+                                  <div class="token-input-max no-select clickable hide-symbol">MAX</div>
+                       
+                               
+                    
+                              </div>
+                              <div class="balance d-flex justify-content-between">
+                                <div class="empty-div"></div>
+                                <div class="value-div">
+                                  <span class="label">BALANCE :</span>
+                                  <span class="value mt-3">0.000 BUNNY</span>
+                                </div>
+                              
+                              </div>
+                              <div class="icon-div d-flex justify-content-center mt-3">
+                                <i class="ti-arrow-down"></i>
+                              </div>
+                              <div class="inner-div mt-3" data-toggle="modal" data-target="#exampleModalLong">
+                                <div class="logo-name">
+                                  <img src="../../../assets/img/ico/1inchexchange.png" style="width: 2rem;"/>
+                                  <span class="l-name">CHAMP SWAP</span>
+                                </div>
+                                <i class="ti-angle-down"></i>
+                    
+                              </div>
+                              <div class="balance d-flex justify-content-between">
+                                <div class="empty-div"></div>
+                                <div class="value-div">
+                                  <span class="label">BALANCE :</span>
+                                  <span class="value mt-3">0.000 CHAMP</span>
+                                </div>
+                              
+                              </div> -->
+                            
+                                    <!-- <button
+                                    class="btn btn-danger btn-block mr-4 mt-4"
+                                    (click)="showNotification('top', 'right')"
+                                  >
+                                    Unlock Wallet
+                                  </button> -->
+                                
+                              <!-- <h5 class="card-title">Card title</h5>
+                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                              <a href="#" class="btn btn-primary">Button</a> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  
+                  </div>
+           
+                  <div id="tab3" class="tab">
+                      <h4 style="text-align: center;">Bridge</h4>
+    
+                  </div>
+           
+          
+              </div>
+          
+          </div>
+          
+      </div>
+        </div>
+        <!-- <div class="container pb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-3">
+              <button
+              class="btn btn-danger btn-block mr-4"
+              (click)="showNotification('top', 'right')"
+            >
+              Unlock Wallet
+            </button>
+            </div>
+          </div>
+        </div> -->
+        
+     
+
+      </div>
+    </div>
+    
+
+</div>
+
+<div class="row">
+
+</div>
+<div class="modal fade bd-example-modal-sm" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Select Token</h5>
+     
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+      </div>
+      <div class="form-group has-search">
+          <span class=" form-control-feedback"></span>
+          <input type="text" class="form-control" placeholder="Search Token">
+        </div>
+      <div class="modal-body">
+    <div class="token-details-modal">
+        <div class="token-inner-details d-flex mb-3">
+            <img class="img-fluid mr-3" src="../../../assets/img/ico/1inchexchange.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+            <p class="mt-1">BNB</p>
+        </div>
+    </div>
+    <div class="token-details-modal">
+      <div class="token-inner-details d-flex mb-3 ">
+          <img class="img-fluid mr-3" src="../../../assets/img/ico/1inchexchange.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+          <p class="mt-1">1inchexchange</p>
+      </div>
+  </div>
+  <div class="token-details-modal">
+    <div class="token-inner-details d-flex mb-3">
+        <img class="img-fluid mr-3" src="../../../assets/img/ico/aavev.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+        <p class="mt-1">Aavev</p>
+    </div>
+</div>
+<div class="token-details-modal">
+  <div class="token-inner-details d-flex mb-3">
+      <img class="img-fluid mr-3" src="../../../assets/img/ico/alchemix.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+      <p class="mt-1">Alchemix</p>
+  </div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+    <img class="img-fluid mr-3" src="../../../assets/img/ico/axieinfinity.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+    <p class="mt-1">Axieinfinity</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+  <img class="img-fluid mr-3" src="../../../assets/img/ico/compound.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+  <p class="mt-1">Compound</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/cryptocomdefiswap.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Cryptocomdefiswap</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/curve.png" style="width: 2rem;" />
+<p class="mt-1">Curve</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/dodov2.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Dodov2</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/dydx.png" style="width: 2rem;    width: 2rem;
+border-radius: 100%;
+background: whitesmoke;" />
+<p class="mt-1">Dydx</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/flexa.png" style="width: 2rem;    width: 2rem;
+border-radius: 100%;
+background: whitesmoke;" />
+<p class="mt-1">Flexa</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/foundation.png" style="width: 2rem;    width: 2rem;
+border-radius: 100%;
+background: whitesmoke;" />
+<p class="mt-1">Foundation</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/hex.png" style="width: 2rem;    width: 2rem;
+border-radius: 100%;
+background: whitesmoke;" />
+<p class="mt-1">Hex</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/opensea.png" style="width: 2rem;    width: 2rem;
+border-radius: 100%;
+background: whitesmoke;" />
+<p class="mt-1">Opensea</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/paraswapio.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Paraswapio</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/rarible.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Rarible</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3 mb-1">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/sushiswap.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Sushiswap</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/synergyofserra.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Synergyofserra</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/tokenlon.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Tokenlon</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/uniswap.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Uniswap</p>
+</div>
+</div>
+<div class="token-details-modal">
+<div class="token-inner-details d-flex mb-3">
+<img class="img-fluid mr-3" src="../../../assets/img/ico/uniswapv3.png" style="width: 2rem;    width: 2rem;
+    border-radius: 100%;
+    background: whitesmoke;" />
+<p class="mt-1">Uniswapv3</p>
+</div>
+</div>
+      </div>
+
+    </div>
+  </div>
+</div> 
